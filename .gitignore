@@ -1,0 +1,9 @@
+tmp/
+info/
+log/
+.vscode
+nohup.out
+*__pycache__*
+settings.py
+*.http
+
