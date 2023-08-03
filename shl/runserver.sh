@@ -1,6 +1,6 @@
-NAVERWORKSPATH="/mdfsvc/NaverWorks"
-PYTHONPATH=$PYTHONPATH:$NAVERWORKSPATH
+MANAGEPATH="/mdfsvc/ManagePlatform"
+PYTHONPATH=$PYTHONPATH:$MANAGEPATH
 
 export PYTHONPATH
 
-nohup python3 ${NAVERWORKSPATH}/manage.py runserver > /dev/null 2>&1 &
+nohup python3 ${MANAGEPATH}/manage.py runserver > /dev/null 2>&1 &
